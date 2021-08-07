@@ -11,6 +11,11 @@ pl = player_info()
 global turn_counter
 turn_counter = 1
 
+# arrays contain the hints for the events that occurs when going to town or forest 
+# and contains the coresponding number that is applied to print by random.choice
+
+# the coresponding number will also applied to when the event actually occurs and
+# only reruns when new round is done
 
 hints_forest = {"1F": 'You see a horde wandering through the woods', "2F": 'You see the woods are eeirely empty',
              "3F": 'You see a few zombies around the woods', "4F": 'The woods are swallowed in an ocean of zombies'} 
