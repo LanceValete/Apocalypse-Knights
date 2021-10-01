@@ -1,4 +1,4 @@
-# ApocK Starting Info V1
+# ApocK Starting Info V2
 
 # Starting Info contains the beginning stats of the player
 # This is to have a starting point and a function which can 

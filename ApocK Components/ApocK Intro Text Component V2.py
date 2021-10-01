@@ -14,7 +14,7 @@ def IntroText(statement):
 # Dialogue function contains the introduction dialogue 
 
 def Intro_Dialogue():
-        IntroText("Enter <Enter to continue...>")
+        IntroText("Press <Enter to continue...>")
         IntroText("Dust, blood, darkness... ")
         IntroText("You lie amoungst the rubble of room ")
         IntroText("You emerge aching and sore, you look around ")
@@ -56,6 +56,5 @@ def Intro_Dialogue():
         IntroText('"Attention Templar Knight Survivors, a helicopter is coming to extract ')
         IntroText('you from the outpost, the helicopter will arrive in 5 days, please wait for us." ')
         IntroText("You now have one mission, survive until extraction. ")
-        return player_name
 
 Intro_Dialogue()
